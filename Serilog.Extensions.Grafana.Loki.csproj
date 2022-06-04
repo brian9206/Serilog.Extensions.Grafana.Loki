@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageVersion>7.1.1</PackageVersion>
+        <PackageVersion>7.1.2</PackageVersion>
         <Authors>Brian Choi &lt;brian9206@hotmail.com&gt;</Authors>
         <Description>A pointless wrapper to set up `Serilog.Sinks.Grafana.Loki` with optimal settings in few lines.</Description>
         <Title>Serilog.Extensions.Grafana.Loki</Title>

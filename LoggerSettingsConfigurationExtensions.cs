@@ -16,7 +16,7 @@ namespace Serilog.Extensions.Grafana.Loki
         {
             var lokiConfigSection = configuration.GetSection("LokiConfig");
             
-            if (lokiConfigSection != null)
+            if (lokiConfigSection != null && lokiConfigSection.Exists())
             {
                 var lokiConfig = new LokiConfig();
                 lokiConfigSection.Bind(lokiConfig);
